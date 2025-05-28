@@ -384,10 +384,11 @@ p {
 	color: #3db199;
 }
 
+/* label + field */
 
 .form-field {
 	color: #073d39;
-	padding: 10px 0
+	padding-bottom: 15px;
 }
 
 /* Form background, width etc */
@@ -407,7 +408,6 @@ form.form p.submit input {
 }
 
 /* The input fields */
-
 
 #pardot-form input.text,
 #pardot-form textarea.standard,
@@ -447,6 +447,7 @@ form.form p.submit input {
 #pardot-form span.value {
 	margin-left: 0;
 }
+
 /* the field labels */
 #pardot-form label {
 	font-family: "Avenir", sans-serif;
@@ -454,7 +455,7 @@ form.form p.submit input {
 	line-height: 24px;
 	color: #006963;
 	font-weight: 500;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	float: none;
 	text-align: left;
 	width: auto;
@@ -538,7 +539,7 @@ form.form p.submit input {
 .pd-checkbox label {
 	display: inline-block;
 	vertical-align: middle;
-	margin-bottom: 25px;
+	padding: 5px;
 	cursor: pointer;
 }
 
@@ -565,9 +566,10 @@ form.form p.submit input {
 /* style the checked checkbox */
 .pd-checkbox input:checked + label:before {
 	content: "\2713";
-	background: #247a59;
+	font-family: "Inter", sans-serif;
+	background: #00ab5f;
 	color: white;
-	border-color: #247a59;
+	border-color: #00ab5f;
 }
 
 form.form p.no-label {
@@ -597,7 +599,7 @@ form.form p.no-label {
 .pd-radio input + label:before {
 	content: "";
 	background: white;
-	border: 1px solid#247a59;
+	border: 1px solid #00ab5f;
 	display: inline-block;
 	vertical-align: middle;
 	width: 20px;
@@ -617,9 +619,9 @@ form.form p.no-label {
 /* style the selected radio button */
 .pd-radio input:checked + label:before {
 	content: "\25CF";
-	background: #247a59;
+	background: #00ab5f;
 	color: white;
-	border-color: #247a59;
+	border-color: #00ab5f;
 }
 
 .g-recaptcha {
@@ -645,13 +647,17 @@ form.form p.no-label {
 	}
 
 	#logo {
-		width: 200px;
+		width: 150px;
 	}
 
 	.main,
 	.main-content {
 		padding: 0;
 		display: block;
+	}
+	
+	.header {
+		padding: 15px 40px;
 	}
 
 	.hero {
@@ -680,7 +686,7 @@ form.form p.no-label {
 	}
 
 	.doc-container {
-		padding: 50px 39px;
+		padding: 0 30px 0 30px;
 	}
 
 	.included {
@@ -699,8 +705,6 @@ form.form p.no-label {
 		max-width: 100%;
 		margin: auto;
 	}
-	
-	
 	
 	#pardot-form {
 		width: 100%
