@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-		html {
+html {
 	font-family: "Avenir", sans-serif;
 	background-color: #e3e7eb;
 	padding: 50px;
@@ -723,3 +723,4 @@ form.form p.no-label {
 		color: #fff;
 	}
 }
+
