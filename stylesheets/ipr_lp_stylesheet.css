@@ -394,6 +394,12 @@ p {
 	background-color: #f1f3f5;
 }
 
+form.form {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
 form.form p.submit input {
 	margin: 0;
 }
