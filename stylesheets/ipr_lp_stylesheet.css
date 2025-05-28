@@ -489,8 +489,9 @@ form.form p {
 
 form.form p.submit input {
     margin: 0 10px 0 0;
-    padding: 10px 12px;
-	width: 100%;
+    padding: 10px 15px;
+    width: 100%;
+    font-weight: bold;
 }
 
 .submit input {
@@ -498,9 +499,7 @@ form.form p.submit input {
 	background-color: #006963;
 	font-size: 18px;
 	line-height: 1.1;
-	padding: 15px 15px;
 	border: none;
-	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #ffffff;
