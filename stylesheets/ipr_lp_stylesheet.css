@@ -10,7 +10,7 @@ html {
 body {
 	font-family: "Avenir", sans-serif;
 	background-color: #ffffff;
-	max-width: 1000px;
+	max-width: 1200px;
 	display: block;
 	margin: auto;
 }
@@ -20,13 +20,13 @@ body {
 }
 
 #logo {
-	width: 1500px;
+	width: 150px;
 	max-width: 150px;
 }
 
 .hero {
 	background-color: #073d39;
-	padding: 50px;
+	padding: 50px 30px;
 	display: flex;
 	justify-content: space-between;
 	column-gap: 25px;
@@ -125,9 +125,9 @@ ul li::before {
 .thumbnail-button {
 	background-color: #f1f3f5;
 	color: white;
-	padding: 0 20px 20px 20px;
+	padding: 0 25px 25px 25px;
 	width: 100%;
-	max-width: 350px;
+	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -363,10 +363,6 @@ footer a:hover {
 	font-size: 1.25rem;
 }
 
-.form-field {
-	color: #073d39;
-}
-
 /**form**/
 
 /* Load the custom font */
@@ -388,6 +384,12 @@ p {
 	color: #3db199;
 }
 
+
+.form-field {
+	color: #073d39;
+	padding: 10px 0
+}
+
 /* Form background, width etc */
 #pardot-form {
 	margin: auto;
@@ -402,13 +404,6 @@ form.form {
 
 form.form p.submit input {
 	margin: 0;
-}
-
-form.form p {
-	clear: left;
-	line-height: 1.1;
-	margin: 0;
-	padding: 10px 0;
 }
 
 /* The input fields */
@@ -459,7 +454,7 @@ form.form p {
 	line-height: 24px;
 	color: #006963;
 	font-weight: 500;
-	padding: 5px 0;
+	padding-bottom: 15px;
 	float: none;
 	text-align: left;
 	width: auto;
@@ -736,4 +731,3 @@ form.form p.no-label {
 		color: #fff;
 	}
 }
-
