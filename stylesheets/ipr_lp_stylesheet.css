@@ -486,6 +486,13 @@ form.form p {
 }
 
 /* the submit button */
+
+form.form p.submit input {
+    margin: 0 10px 0 0;
+    padding: 10px 12px;
+	width: 100%;
+}
+
 .submit input {
 	font-family: "Avenir", sans-serif;
 	background-color: #006963;
@@ -498,6 +505,7 @@ form.form p {
 	letter-spacing: 2px;
 	color: #ffffff;
 	box-shadow: -3px 3px #b8bdc4;
+	width: 100%
 }
 
 /* the submit button hover */
