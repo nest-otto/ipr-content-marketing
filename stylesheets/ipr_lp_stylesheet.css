@@ -203,7 +203,6 @@ ul li::before {
 .cover-s{
 	max-width: 125px;
 	height: auto;
-	    height: fit-content;
 }
 
 .align-left{
