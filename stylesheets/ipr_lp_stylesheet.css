@@ -145,8 +145,8 @@ ul li::before {
 
 .thumbnail-button {
 	background-color: #f1f3f5;
-	color: white;
-	padding: 0 25px 25px 25px;
+	color: var(--ip-dark-green);
+	padding: 25px;
 	width: 100%;
 	max-width: 500px;
 	margin-left: auto;
