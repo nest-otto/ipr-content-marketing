@@ -3,7 +3,8 @@
 
 html {
 	font-family: "Avenir", sans-serif;
-	background-color: #e3e7eb;
+	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
+	background-color: var(--ip-green);
 	padding: 50px;
 }
 
@@ -25,7 +26,7 @@ body {
 }
 
 .hero {
-	background-color: #073d39;
+	background-color: var(--ip-dark-green);
 	padding: 50px 30px;
 	display: flex;
 	justify-content: space-between;
@@ -65,11 +66,13 @@ body {
 }
 
 .heading-l{
-	font-size: 1.5rem
+	font-size: 1.5rem;
+	font-weight: 400;
 }
 
 .heading-m{
-	fon-size: 1.25rem
+	font-size: 1.25rem;
+	font-weight: 400;
 }
 
 .margin-bottom-50{
@@ -83,7 +86,7 @@ body {
 .lead {
 	font-size: 1.125rem;
 	line-height: 24px;
-	color: #a0e4cb;
+	color: var(--light-aquamarine);
 }
 
 p {
@@ -106,7 +109,7 @@ ul li {
 ul li::before {
 	font-family: "Noto Sans Symbols 2", sans-serif;
 	content: "•";
-	color: #3db199;
+	color: var(--aquamarine);
 	display: inline-block;
 	width: 15px;
 	margin-left: -15px;
@@ -168,7 +171,7 @@ ul li::before {
 
 .solid-button {
 	font-family: "Avenir", sans-serif;
-	background-color: #006963;
+	background-color: var(--ip-green);
 	padding: 10px 15px;
 	margin-top: 15px;
 	border: none;
@@ -176,20 +179,20 @@ ul li::before {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #ffffff;
-	box-shadow: -3px 3px #b8bdc4;
+	box-shadow: -3px 3px var(--light-cool-gray);
 	width: 100%;
 	display: block;
 	text-align: center;
 }
 
 .solid-button:hover {
-	background-color: #073d39;
+	background-color: var(--ip-dark-green);
 	transition: 0.25s;
 }
 
 .solid-button-arrow {
 	font-weight: 400;
-	color: #a0e4cb;
+	color: var(--light-aquamarine);
 }
 
 .thumbnail-button a,
@@ -200,7 +203,7 @@ ul li::before {
 
 .text-button {
 	border: none;
-	color: #006963;
+	color: var(--ip-green);
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -211,14 +214,14 @@ ul li::before {
 
 .complete-button {
 	padding-top: 25px;
-	color: #b8bdc4;
+	color: var(--light-cool-gray);
 	text-align: center;
 }
 
 .featured {
 	padding: 50px;
 	margin: auto;
-	color: #073d39;
+	color: var(--ip-dark-green);
 }
 
 .featured-image {
@@ -228,7 +231,7 @@ ul li::before {
 footer {
 	font-size: 14px;
 	line-height: 20px;
-	background-color: #006963;
+	background-color: var(--ip-green);
 	padding: 30px 50px;
 	margin: auto;
 	color: #fff;
@@ -236,12 +239,11 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #a0e4cb;
+	color: var(--light-aquamarine);
 }
 
 footer a:hover {
 	color: #fffffe;
-	text-decoration: none;
 	transition: 0.25s;
 }
 
@@ -291,12 +293,12 @@ footer a:hover {
 }
 
 .solid-button-arrow {
-	color: #3db199;
+	color: var(--aquamarine);
 }
 
 .text-button:hover {
 	text-decoration: none;
-	color: #073d39;
+	color: var(--ip-dark-green);
 }
 
 .social-container a {
@@ -317,7 +319,7 @@ footer a:hover {
 }
 
 .newsletter h4 {
-	color: #006963;
+	color: var(--ip-green);
 	display: inline-block;
 	margin-bottom: 0;
 	padding-right: 50px;
@@ -366,7 +368,7 @@ footer a:hover {
 	letter-spacing: 2px;
 	font-weight: 600;
 	padding-bottom: 10px;
-	color: #073d39;
+	color: var(--ip-dark-green);
 }
 
 .resource-title {
@@ -397,7 +399,7 @@ p {
 /* label + field */
 
 .form-field {
-	color: #073d39;
+	color: var(--ip-dark-green);
 	padding-bottom: 15px;
 }
 
@@ -425,19 +427,19 @@ form.form p.submit input {
 #pardot-form input.date {
 	background-color: white;
 	font-size: 14px;
-	color: #15191e;
+	color: var(--ip-black);
 	padding: 10px;
 	width: 100%;
 	font-family: "Avenir", sans-serif;
 	box-sizing: border-box;
 	display: inline-block;
 	border: 0;
-	border-bottom: solid 1px #006963;
+	border-bottom: solid 1px var(--ip-green);
 }
 
 #pardot-form select {
 	border: 0;
-	border-bottom: solid 1px #006963;
+	border-bottom: solid 1px var(--ip-green);
 }
 
 #pardot-form input.text {
@@ -450,7 +452,7 @@ form.form p.submit input {
 #pardot-form select:focus,
 #pardot-form input.date:focus {
 	
-	border-bottom: solid 2px #00ab5f;
+	border-bottom: solid 2px var(--clover-green);
 	outline: none;
 }
 
@@ -463,7 +465,7 @@ form.form p.submit input {
 	font-family: "Avenir", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-	color: #006963;
+	color: var(--ip-green);
 	font-weight: 500;
 	padding-bottom: 5px;
 	float: none;
@@ -478,7 +480,7 @@ form.form p.submit input {
 	font-family: "Avenir", sans-serif;
 	font-size: 14px;
 	font-style: italic;
-	color: #006963;
+	color: var(--ip-green);
 	font-weight: 500;
 	padding: 0;
 	float: left;
@@ -501,27 +503,27 @@ form.form p.submit input {
 
 form.form p.submit input {
     margin: 0 10px 0 0;
-    padding: 10px 15px;
+    padding: 15px 15px;
     width: 100%;
     font-weight: bold;
 }
 
 .submit input {
 	font-family: "Avenir", sans-serif;
-	background-color: #006963;
+	background-color: var(--ip-green);
 	font-size: 18px;
 	line-height: 1.1;
 	border: none;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #ffffff;
-	box-shadow: -3px 3px #b8bdc4;
+	box-shadow: -3px 3px var(--light-cool-gray);
 	width: 100%
 }
 
 /* the submit button hover */
 #pardot-form .submit input:hover {
-	background-color: #073d39;
+	background-color: var(--ip-dark-green);
 	transition: 0.2s;
 }
 
@@ -533,7 +535,6 @@ form.form p.submit input {
 /* the spacing around the submit button */
 #pardot-form .submit {
 	margin: 0;
-	padding-top: 15px;
 	padding-bottom: 0;
 	text-align: center;
 }
@@ -561,7 +562,7 @@ form.form p.submit input {
 .pd-checkbox input + label:before {
 	content: "";
 	background: white;
-	border: 1px solid#247a59;
+	border: 1px solid var(--clover-green);
 	display: inline-block;
 	vertical-align: middle;
 	width: 20px;
@@ -577,9 +578,9 @@ form.form p.submit input {
 .pd-checkbox input:checked + label:before {
 	content: "\2713";
 	font-family: "Inter", sans-serif;
-	background: #00ab5f;
+	background: var(--clover-green);
 	color: white;
-	border-color: #00ab5f;
+	border-color: var(--clover-green);
 }
 
 form.form p.no-label {
@@ -609,7 +610,7 @@ form.form p.no-label {
 .pd-radio input + label:before {
 	content: "";
 	background: white;
-	border: 1px solid #00ab5f;
+	border: 1px solid var(--clover-green);
 	display: inline-block;
 	vertical-align: middle;
 	width: 20px;
@@ -629,9 +630,9 @@ form.form p.no-label {
 /* style the selected radio button */
 .pd-radio input:checked + label:before {
 	content: "\25CF";
-	background: #00ab5f;
+	background: var(--clover-green);
 	color: white;
-	border-color: #00ab5f;
+	border-color: var(--clover-green);
 }
 
 .g-recaptcha {
@@ -652,7 +653,7 @@ form.form p.no-label {
 
 	html {
 		font-family: "Avenir", sans-serif;
-		background-color: #e3e7eb;
+		background-color: var(--light-gray);
 		padding: 15px;
 	}
 
@@ -681,7 +682,7 @@ form.form p.no-label {
 
 	.featured {
 		padding: 30px;
-		color: #073d39;
+		color: var(--ip-dark-green);
 		box-sizing: border-box;
 	}
 	
@@ -748,4 +749,19 @@ form.form p.no-label {
 		margin: auto;
 		color: #fff;
 	}
+}
+
+
+/** Color Palette **/
+
+:root {
+	--ip-black: #15191e;
+	--ip-green: #006963;
+	--ip-dark-green: #073d39;
+	--clover-green: #00ab5f;
+	--light-clover-green: #98e3a0;
+	--aquamarine: #3db199;
+	--light-aquamarine: #a0e4cb;
+	--light-cool-gray: #b8bdc4;
+	--light-gray: #e3e7eb
 }
