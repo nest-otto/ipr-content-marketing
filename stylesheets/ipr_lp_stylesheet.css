@@ -205,13 +205,13 @@ ul li::before {
 	height: auto;
 }
 
-.align-left{
-	margin-left: 0
-}
-
 .cover-l{
 	max-width: 200px;
 	height: auto
+}
+
+.align-left{
+	margin-left: 0
 }
 
 .cs-cover {
