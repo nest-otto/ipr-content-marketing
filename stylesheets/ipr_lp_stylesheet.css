@@ -50,35 +50,45 @@ body {
 	color: #ffffff;
 }
 
-h1,
 .eyebrow {
-	font-size: 14px;
+	font-size: 0.875rem;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 600;
 	padding-bottom: 10px;
 }
 
-h2 {
+.heading-xl {
+	font-size: 2rem;
 	font-weight: 400;
 	margin: 0 0 15px 0;
 }
 
-h4 {
-	font-size: 24px;
-	color: #ffffff;
-	font-weight: 400;
+.heading-l{
+	font-size: 1.5rem
+}
+
+.heading-m{
+	fon-size: 1.25rem
+}
+
+.margin-bottom-50{
+	margin-bottom: 50px
+}
+
+.margin-bottom-25{
+	margin-bottom: 25px
 }
 
 .lead {
-	font-size: 18px;
+	font-size: 1.125rem;
 	line-height: 24px;
 	color: #a0e4cb;
 }
 
 p {
 	font-family: "Avenir", sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 	padding: 0;
 	margin-left: 0;
 }
@@ -88,7 +98,7 @@ ul {
 }
 
 ul li {
-	font-size: 16px;
+	font-size: 1rem;
 	margin: 0 0 15px -40px;
 	list-style: none;
 }
