@@ -2,14 +2,14 @@
 /* CSS Document */
 
 html {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
 	background-color: var(--ip-green);
 	padding: 50px;
 }
 
 body {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	background-color: #ffffff;
 	max-width: 1200px;
 	display: block;
@@ -90,7 +90,9 @@ body {
 }
 
 p {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 1rem;
 	padding: 0;
 	margin-left: 0;
@@ -224,7 +226,7 @@ ul li::before {
 }
 
 .solid-button {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	background-color: var(--ip-green);
 	padding: 10px 15px;
 	margin-top: 15px;
@@ -434,13 +436,13 @@ footer a:hover {
 /* Load the custom font */
 
 #pardot-form {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
 body,
 p {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
@@ -484,7 +486,7 @@ form.form p.submit input {
 	color: var(--ip-black);
 	padding: 10px;
 	width: 100%;
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	box-sizing: border-box;
 	display: inline-block;
 	border: 0;
@@ -516,7 +518,7 @@ form.form p.submit input {
 
 /* the field labels */
 #pardot-form label {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	color: var(--ip-green);
@@ -531,7 +533,7 @@ form.form p.submit input {
 /* the field descriptions */
 #pardot-form p span.description {
 	margin-left: 0;
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	font-size: 14px;
 	font-style: italic;
 	color: var(--ip-green);
@@ -547,7 +549,7 @@ form.form p.submit input {
 	color: #606a75;
 	font-size: 11px;
 	line-height: 20px;
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	margin-bottom: 10px;
 	display: inline-block;
 	text-align: left;
@@ -563,7 +565,7 @@ form.form p.submit input {
 }
 
 .submit input {
-	font-family: "Avenir", sans-serif;
+	font-family: "avenir-lt-pro", sans-serif;
 	background-color: var(--ip-green);
 	font-size: 18px;
 	line-height: 1.1;
