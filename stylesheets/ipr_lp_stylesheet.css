@@ -33,14 +33,6 @@ body {
 	column-gap: 25px;
 }
 
-.link-light{
-	color: var(--light-aquamarine);
-}
-
-.link-light:hover{
-	color: white
-}
-
 .sim-banner {
 	width: 100%;
 	background-size: cover;
@@ -83,12 +75,12 @@ body {
 	font-weight: 400;
 }
 
-.margin-bottom-50{
-	margin-bottom: 50px
+.link-light{
+	color: var(--light-aquamarine);
 }
 
-.margin-bottom-25{
-	margin-bottom: 25px
+.link-light:hover{
+	color: white
 }
 
 .lead {
@@ -123,9 +115,42 @@ ul li::before {
 	margin-left: -15px;
 }
 
+.margin-top-25{
+	margin-top: 25px
+}
+
+.margin-top-50{
+	margin-top: 50px
+}
+
+.margin-bottom-25{
+	margin-bottom: 25px
+}
+
+.margin-bottom-50{
+	margin-bottom: 50px
+}
+
 .main {
 	padding: 75px 75px;
 	position: relative;
+}
+
+.into-animation{
+	max-width: 200px;
+	margin-top: -25px;
+	margin-left: -25px
+}
+
+.feature-card{
+	background-color: white;
+	color: var(--ip-dark-green);
+	padding: 25px
+}
+
+.cover-title{
+	display: flex;
+	column-gap: 25px
 }
 
 .main-content {
@@ -144,7 +169,7 @@ ul li::before {
 }
 
 .thumbnail-button {
-	background-color: #f1f3f5;
+	background-color: var(--light-gray);
 	color: var(--ip-dark-green);
 	padding: 25px;
 	width: 100%;
@@ -162,14 +187,24 @@ ul li::before {
 	position: relative;
 }
 
-.cs-cover {
-	max-width: 200px;
+.cs-cover-cont{
 	position: relative;
-	top: -20px;
+	margin-top: -50px
+}
+
+.cover-s{
+	max-width: 125px
+}
+
+.cover-l{
+	max-width: 200px;
+}
+
+.cs-cover {
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 2px 15px 5px rgba(7, 51, 67, 0.35);
-	margin-bottom: 10px;
 	display: block;
 }
 
@@ -314,7 +349,7 @@ footer a:hover {
 }
 
 .newsletter {
-	background-color: #f1f3f5;
+	background-color: var(--light-gray);
 	padding: 30px;
 	margin-left: auto;
 	margin-right: auto;
@@ -340,7 +375,7 @@ footer a:hover {
 
 .featured-resources {
 	display: flex;
-	background-color: #f1f3f5;
+	background-color: var(--light-gray);
 	column-gap: 25px;
 }
 
@@ -414,7 +449,7 @@ p {
 /* Form background, width etc */
 #pardot-form {
 	margin: auto;
-	background-color: #f1f3f5;
+	background-color: var(--light-gray);
 }
 
 form.form {
@@ -771,5 +806,5 @@ form.form p.no-label {
 	--aquamarine: #3db199;
 	--light-aquamarine: #a0e4cb;
 	--light-cool-gray: #b8bdc4;
-	--light-gray: #e3e7eb
+	--light-gray: #f1f3f5
 }
