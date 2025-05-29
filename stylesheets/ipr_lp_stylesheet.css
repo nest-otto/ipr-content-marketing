@@ -33,6 +33,14 @@ body {
 	column-gap: 25px;
 }
 
+.link-light{
+	color: var(--light-aquamarine);
+}
+
+.link-light:hover{
+	color: white
+}
+
 .sim-banner {
 	width: 100%;
 	background-size: cover;
@@ -756,8 +764,8 @@ form.form p.no-label {
 
 :root {
 	--ip-black: #15191e;
-	--ip-green: #006963;
 	--ip-dark-green: #073d39;
+	--ip-green: #006963;
 	--clover-green: #00ab5f;
 	--light-clover-green: #98e3a0;
 	--aquamarine: #3db199;
