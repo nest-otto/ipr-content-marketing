@@ -205,6 +205,11 @@ ul li::before {
 	height: auto;
 }
 
+.cover-m{
+	max-width: 150px;
+	height: auto
+}
+
 .cover-l{
 	max-width: 200px;
 	height: auto
