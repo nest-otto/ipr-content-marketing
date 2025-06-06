@@ -125,12 +125,20 @@ ul li::before {
 	margin-top: 50px
 }
 
+.margin-bottom-15{
+	margin-bottom: 15px
+}
+
 .margin-bottom-25{
 	margin-bottom: 25px
 }
 
 .margin-bottom-50{
 	margin-bottom: 50px
+}
+
+.margin-bottom-100{
+	margin-bottom: 100px
 }
 
 .vert-align-middle{
@@ -197,7 +205,7 @@ ul li::before {
 
 .cs-cover-cont{
 	position: relative;
-	margin-top: -50px;
+	margin-top: -75px;
 }
 
 .cover-s{
@@ -205,24 +213,20 @@ ul li::before {
 	height: auto;
 }
 
-.cover-m{
-	max-width: 150px;
-	height: auto
-}
-
-.cover-l{
-	max-width: 200px;
-	height: auto
+.cs-cover {
+	position: relative;
+	box-shadow: 0 2px 15px 5px rgba(7, 51, 67, 0.35);
+	display: block;
+	margin: auto
 }
 
 .align-left{
 	margin-left: 0
 }
 
-.cs-cover {
-	position: relative;
-	box-shadow: 0 2px 15px 5px rgba(7, 51, 67, 0.35);
-	display: block;
+.cover-l{
+	max-width: 200px;
+	height: auto
 }
 
 .label {
