@@ -357,7 +357,7 @@ footer{
 	line-height: 20px;
 	padding: 30px 50px;
 	margin: auto;
-	border-top: solid 2px white
+	border-top: solid 2px var(--ip-dark-green)
 }
 
 footer p, footer a{
