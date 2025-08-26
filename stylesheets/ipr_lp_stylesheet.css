@@ -55,6 +55,7 @@ body {
 	letter-spacing: 1px;
 	color: var(--ip-green);
 	font-weight: 600;
+	margin: auto;
 }
 
 .nav-link:hover{
