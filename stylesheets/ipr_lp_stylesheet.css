@@ -16,13 +16,50 @@ body {
 	margin: auto;
 }
 
+.dark-green-bg{
+	background-color: var(--ip-dark-green);
+	color: white
+}
+
+.green-bg{
+	background-color: var(--ip-green);
+	color: white
+}
+
+.white-bg{
+	background-color: white;
+	color: var(--ip-dark-green)
+}
+
 .header {
-	padding: 15px 60px;
+	padding: 15px 50px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 2px 2px 2px #e3e7eb;
+	position: sticky;
 }
 
 #logo {
 	width: 150px;
 	max-width: 150px;
+}
+
+.nav-links-cont{
+	display: flex;
+	gap: 15px
+}
+
+.nav-link{
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: var(--ip-green);
+	font-weight: 600;
+}
+
+.nav-link:hover{
+	color: var(--ip-dark-green);
+	transition: 0.2s ease-in
 }
 
 .hero {
@@ -292,13 +329,20 @@ ul li::before {
 	max-width: 400px;
 }
 
-footer {
-	font-size: 14px;
+footer{
 	line-height: 20px;
-	background-color: var(--ip-green);
 	padding: 30px 50px;
 	margin: auto;
-	color: #fff;
+}
+
+footer p, footer a{
+	font-size: 0.875rem;
+	margin-bottom: 15px
+}
+
+.footer-logo{
+	width: 115px;
+	margin-bottom: 25px
 }
 
 footer a {
@@ -309,10 +353,6 @@ footer a {
 footer a:hover {
 	color: #fffffe;
 	transition: 0.25s;
-}
-
-.footer-bottom {
-	padding-top: 15px;
 }
 
 .footer-social {
@@ -717,7 +757,6 @@ form.form p.no-label {
 
 	html {
 		font-family: "Avenir", sans-serif;
-		background-color: var(--light-gray);
 		padding: 15px;
 	}
 
@@ -751,7 +790,7 @@ form.form p.no-label {
 	}
 	
 	.download-container {
-		padding: 0;
+		padding: 0 0 50px 0;
 	}
 
 	.thumbnail-button {
@@ -806,6 +845,12 @@ form.form p.no-label {
 
 	input {
 		width: 100%;
+	}
+	
+	.sim-banner {
+		height: 150px;
+		object-fit: cover;
+		object-position: 0% 0%;;
 	}
 
 	footer {
