@@ -104,11 +104,13 @@ body {
 
 .heading-l{
 	font-size: 1.5rem;
+	line-height: 1.25;
 	font-weight: 400;
 }
 
 .heading-m{
 	font-size: 1.25rem;
+	line-height: 1.25;
 	font-weight: 400;
 }
 
