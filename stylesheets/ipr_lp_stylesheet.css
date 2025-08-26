@@ -8,6 +8,10 @@ html {
 	padding: 50px;
 }
 
+.no-bg{
+	background-image: none
+}
+
 body {
 	font-family: "avenir-lt-pro", sans-serif;
 	background-color: #ffffff;
