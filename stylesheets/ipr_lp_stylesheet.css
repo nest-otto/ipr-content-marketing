@@ -103,7 +103,7 @@ body {
 }
 
 .heading-l{
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	line-height: 1.25;
 	font-weight: 400;
 }
@@ -216,7 +216,7 @@ ul li::before {
 	padding-top: 25px;
 }
 
-.download-container {
+.form-container {
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
@@ -541,6 +541,7 @@ form.form p.submit input {
 	display: inline-block;
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
+	max-height: 150px;
 }
 
 #pardot-form select {
