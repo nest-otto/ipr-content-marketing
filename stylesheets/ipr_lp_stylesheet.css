@@ -16,6 +16,10 @@ body {
 	margin: auto;
 }
 
+.no-padding{
+	padding: 0
+}
+
 .dark-green-bg{
 	background-color: var(--ip-dark-green);
 	color: white
@@ -69,6 +73,17 @@ body {
 	display: flex;
 	justify-content: space-between;
 	column-gap: 25px;
+}
+
+.main-cont {
+	background-color: var(--ip-dark-green);
+	display: flex;
+	justify-content: space-between;
+	column-gap: 25px;
+}
+
+.main-copy{
+	padding: 50px 25px
 }
 
 .sim-banner {
