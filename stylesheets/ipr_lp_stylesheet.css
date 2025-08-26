@@ -83,7 +83,7 @@ body {
 }
 
 .main-copy{
-	padding: 50px 25px
+	padding: 50px
 }
 
 .sim-banner {
@@ -796,6 +796,10 @@ form.form p.no-label {
 	.main-content {
 		padding: 0;
 		display: block;
+	}
+	
+	.main-copy{
+		padding: 25px
 	}
 	
 	.header {
