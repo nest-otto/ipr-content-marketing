@@ -34,9 +34,17 @@ body {
 	color: white
 }
 
+.dark-green-bg a, .green-bg a{
+	color: var(--light-aquamarine)
+}
+
 .white-bg{
 	background-color: white;
 	color: var(--ip-dark-green)
+}
+
+.white-bg a{
+	color: var(--clover-green)
 }
 
 .header {
@@ -349,6 +357,7 @@ footer{
 	line-height: 20px;
 	padding: 30px 50px;
 	margin: auto;
+	border-top: solid 2px white
 }
 
 footer p, footer a{
