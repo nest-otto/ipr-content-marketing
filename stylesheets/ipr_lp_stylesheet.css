@@ -3,9 +3,16 @@
 
 .html {
 	font-family: "avenir-lt-pro", sans-serif;
+	padding: 50px;
+}
+
+.html-pattern-bg{
 	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
 	background-color: var(--ip-green);
-	padding: 50px;
+}
+
+.html-gray-bg{
+	background-color: var(--light-gray);
 }
 
 .no-bg{
