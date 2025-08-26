@@ -41,6 +41,7 @@ body {
 	justify-content: space-between;
 	box-shadow: 2px 2px 2px #e3e7eb;
 	position: sticky;
+	z-index: 999
 }
 
 #logo {
@@ -79,11 +80,10 @@ body {
 	background-color: var(--ip-dark-green);
 	display: flex;
 	justify-content: space-between;
-	column-gap: 25px;
 }
 
 .main-copy{
-	padding: 50px 25px
+	padding: 50px
 }
 
 .sim-banner {
@@ -796,6 +796,10 @@ form.form p.no-label {
 	.main-content {
 		padding: 0;
 		display: block;
+	}
+	
+	.main-copy{
+		padding: 25px
 	}
 	
 	.header {
