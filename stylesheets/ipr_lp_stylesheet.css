@@ -84,6 +84,10 @@ body {
 	justify-content: space-between;
 }
 
+.main-content {
+	justify-content: space-between;
+}
+
 .main-copy{
 	padding: 50px
 }
@@ -224,10 +228,6 @@ ul li::before {
 .cover-title{
 	display: flex;
 	column-gap: 25px
-}
-
-.main-content {
-	justify-content: space-between;
 }
 
 .included {
@@ -789,7 +789,8 @@ form.form p.no-label {
 	}
 
 	.main,
-	.main-content {
+	.main-content,
+	.main-cont{
 		padding: 0;
 		display: block;
 	}
@@ -825,6 +826,7 @@ form.form p.no-label {
 		width: 100%;
 		max-width: none;
 		position: relative;
+		top:0
 	}
 
 	.form-container {
