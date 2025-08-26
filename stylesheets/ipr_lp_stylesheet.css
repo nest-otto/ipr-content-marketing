@@ -316,12 +316,6 @@ ul li::before {
 	color: var(--light-aquamarine);
 }
 
-.thumbnail-button a,
-.thumbnail-button a:hover {
-	color: white;
-	text-decoration: none;
-}
-
 .text-button {
 	border: none;
 	color: var(--ip-green);
