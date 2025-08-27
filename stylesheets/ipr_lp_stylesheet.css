@@ -787,8 +787,7 @@ form.form p.no-label {
 		margin: auto;
 	}
 
-	html {
-		font-family: "Avenir", sans-serif;
+	.html {
 		padding: 15px;
 	}
 
