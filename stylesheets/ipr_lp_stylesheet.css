@@ -776,6 +776,20 @@ form.form p.no-label {
 	border-color: var(--clover-green);
 }
 
+.red-background,form.form p.errors {
+    background: #8b0000;
+    color: #fff;
+    margin-bottom: 15px
+}
+
+.red-color,form.form div.error,form.form p.error,form.form p.error label,form.form span.error {
+    color: #8b0000
+}
+
+form.form p.no-label {
+    margin-left: 0 !important;
+}
+
 .g-recaptcha {
 	padding-bottom: 0;
 	padding-top: 15px;
