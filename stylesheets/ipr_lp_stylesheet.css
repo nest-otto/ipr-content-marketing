@@ -36,6 +36,10 @@ body {
 	color: white
 }
 
+.dark-green-bg h3{
+	color: var(--light-clover-green)
+}
+
 .green-bg{
 	background-color: var(--ip-green);
 	color: white
@@ -48,6 +52,10 @@ body {
 .white-bg{
 	background-color: white;
 	color: var(--ip-dark-green)
+}
+
+.white-bg h3{
+	color: var(--clover-green)
 }
 
 .white-bg a{
@@ -70,7 +78,8 @@ body {
 
 .nav-links-cont{
 	display: flex;
-	gap: 15px
+	gap: 25px;
+	justify-content: space-between;
 }
 
 .nav-link{
@@ -79,7 +88,9 @@ body {
 	letter-spacing: 1px;
 	color: var(--ip-green);
 	font-weight: 600;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0
 }
 
 .nav-link:hover{
@@ -88,7 +99,6 @@ body {
 }
 
 .hero {
-	background-color: var(--ip-dark-green);
 	padding: 50px 30px;
 	display: flex;
 	justify-content: space-between;
@@ -96,7 +106,6 @@ body {
 }
 
 .main-cont {
-	background-color: var(--ip-dark-green);
 	display: flex;
 	justify-content: space-between;
 }
@@ -256,6 +265,10 @@ ul li::before {
 	padding-top: 25px;
 }
 
+.download-container {
+		padding: 50px 50px 50px 0;
+	}
+
 .form-container {
 	padding: 15px;
 	display: flex;
@@ -369,7 +382,7 @@ footer{
 	line-height: 20px;
 	padding: 30px 50px;
 	margin: auto;
-	border-top: solid 2px var(--ip-dark-green)
+	border-top  : solid 2px  #b8bdc4;
 }
 
 footer p, footer a{
@@ -783,11 +796,18 @@ form.form p.no-label {
 }
 
 .red-color,form.form div.error,form.form p.error,form.form p.error label,form.form span.error {
-    color: #8b0000
+    color: #8b0000;
 }
 
 form.form p.no-label {
     margin-left: 0 !important;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    font-size: 0.875rem;
+}
+
+.hidden{
+	display: none
 }
 
 .g-recaptcha {
@@ -828,6 +848,16 @@ form.form p.no-label {
 	
 	.header {
 		padding: 15px 25px;
+		flex-direction: column;
+		gap: 25px
+	}
+	
+	.nav-link-cont{
+		justify-content: space-around;
+	}
+	
+	.nav-link{
+		padding: 0
 	}
 
 	.hero {
@@ -846,7 +876,7 @@ form.form p.no-label {
 	}
 	
 	.download-container {
-		padding: 0 0 50px 0;
+		padding: 0 25px;
 	}
 
 	.thumbnail-button {
