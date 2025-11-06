@@ -807,7 +807,7 @@ form.form p.no-label {
 }
 
 .hidden{
-	display: none
+	display: none;
 }
 
 .g-recaptcha {
