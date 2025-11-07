@@ -190,6 +190,11 @@ p {
 	margin-left: 0;
 }
 
+.body-lg{
+	font-size: 1.125rem;
+	line-height: 1.5;
+}
+
 ul {
 	margin-top: 20px;
 }
