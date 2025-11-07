@@ -6,6 +6,14 @@
 	padding: 50px;
 }
 
+body {
+	font-family: "avenir-lt-pro", sans-serif;
+	background-color: #ffffff;
+	max-width: 1200px;
+	display: block;
+	margin: auto;
+}
+
 .html-pattern-bg{
 	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
 	background-color: var(--ip-green);
@@ -19,12 +27,58 @@
 	background-image: none
 }
 
-body {
+.eyebrow {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.heading-xl {
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+}
+
+.heading-l{
+	font-size: 1.25rem;
+	line-height: 1.25;
+	font-weight: 400;
+}
+
+.heading-m{
+	font-size: 1.25rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.sub-heading{
+	font-size: 1.125rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.link-light{
+	color: var(--light-aquamarine);
+}
+
+.link-light:hover{
+	color: white
+}
+
+.lead {
+	color: var(--light-aquamarine);
+}
+
+p {
 	font-family: "avenir-lt-pro", sans-serif;
-	background-color: #ffffff;
-	max-width: 1200px;
-	display: block;
-	margin: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: 0;
+	margin-left: 0;
 }
 
 .no-padding{
@@ -136,63 +190,12 @@ body {
 	color: #ffffff;
 }
 
-.eyebrow {
-	font-size: 0.875rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 600;
-	padding-bottom: 10px;
-}
-
-.heading-xl {
-	font-size: 2rem;
-	font-weight: 400;
-	margin: 0 0 15px 0;
-}
-
-.heading-l{
-	font-size: 1.25rem;
-	line-height: 1.25;
-	font-weight: 400;
-}
-
-.heading-m{
-	font-size: 1.25rem;
-	line-height: 1.5;
-	font-weight: 400;
-}
-
-.link-light{
-	color: var(--light-aquamarine);
-}
-
-.link-light:hover{
-	color: white
-}
-
-.lead {
-	font-size: 1.125rem;
-	line-height: 24px;
-	color: var(--light-aquamarine);
+.ip-green{
+	color: var(--ip-green);
 }
 
 .light-green{
 	color: var(--light-clover-green);
-}
-
-p {
-	font-family: "avenir-lt-pro", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1rem;
-	line-height: 1.5;
-	padding: 0;
-	margin-left: 0;
-}
-
-.body-lg{
-	font-size: 1.125rem;
-	line-height: 1.5;
 }
 
 ul {
