@@ -593,9 +593,9 @@ form.form p.submit input {
 #pardot-form select,
 #pardot-form input.date {
 	background-color: transparent;
-	font-size: 14px;
+	font-size: 1rem;
 	color: var(--ip-black);
-	padding: 0 0 10px 0;
+	padding: 5px 5px 10px 5px;
 	width: 100%;
 	font-family: "avenir-lt-pro", sans-serif;
 	box-sizing: border-box;
@@ -603,11 +603,13 @@ form.form p.submit input {
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
 	max-height: 150px;
+	transition: 0.25s
 }
 
 #pardot-form select {
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
+	background-color: white;
 }
 
 #pardot-form input.text {
