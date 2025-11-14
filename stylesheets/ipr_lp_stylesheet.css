@@ -662,9 +662,9 @@ form.form p.submit input {
 #privacy-policy-msg {
 	color: #606a75;
 	font-size: 11px;
-	line-height: 20px;
+	line-height: 150%;
 	font-family: "avenir-lt-pro", sans-serif;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	display: inline-block;
 	text-align: left;
 }
