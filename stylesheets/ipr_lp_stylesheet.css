@@ -592,10 +592,10 @@ form.form p.submit input {
 #pardot-form textarea.standard,
 #pardot-form select,
 #pardot-form input.date {
-	background-color: white;
+	background-color: transparent;
 	font-size: 14px;
 	color: var(--ip-black);
-	padding: 10px;
+	padding: 10px 0;
 	width: 100%;
 	font-family: "avenir-lt-pro", sans-serif;
 	box-sizing: border-box;
