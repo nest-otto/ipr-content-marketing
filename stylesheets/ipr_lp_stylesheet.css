@@ -595,7 +595,7 @@ form.form p.submit input {
 	background-color: transparent;
 	font-size: 1rem;
 	color: var(--ip-black);
-	padding: 5px 5px 10px 5px;
+	padding: 0 0 10px 0;
 	width: 100%;
 	font-family: "avenir-lt-pro", sans-serif;
 	box-sizing: border-box;
@@ -624,7 +624,6 @@ form.form p.submit input {
 	
 	border-bottom: solid 2px var(--clover-green);
 	outline: none;
-	background-color: white;
 }
 
 #pardot-form span.value {
