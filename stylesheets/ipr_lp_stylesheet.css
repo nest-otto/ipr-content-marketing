@@ -602,18 +602,18 @@ form.form p.submit input {
 	display: inline-block;
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
-	max-height: 150px;
+	max-height: 100px;
 	transition: 0.25s
 }
 
 #pardot-form select {
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
-	background-color: white;
+	margin-bottom: 5px;
 }
 
 #pardot-form input.text {
-	padding: 10px;
+	margin-bottom: 5px;
 }
 
 /* the input fields on focus */
@@ -624,6 +624,7 @@ form.form p.submit input {
 	
 	border-bottom: solid 2px var(--clover-green);
 	outline: none;
+	background-color: white;
 }
 
 #pardot-form span.value {
@@ -637,7 +638,6 @@ form.form p.submit input {
 	line-height: 24px;
 	color: var(--ip-green);
 	font-weight: 500;
-	padding-bottom: 5px;
 	float: none;
 	text-align: left;
 	width: auto;
@@ -828,7 +828,7 @@ form.form p.no-label {
 
 .g-recaptcha {
 	padding-bottom: 0;
-	padding-top: 15px;
+	padding-top: 0;
 }
 
 
