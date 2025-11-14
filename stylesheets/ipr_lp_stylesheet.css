@@ -588,6 +588,12 @@ form.form p.submit input {
 
 /* The input fields */
 
+textarea {
+    overflow: auto;
+    height: 100px;
+	resize: vertical;
+}
+
 #pardot-form input.text,
 #pardot-form textarea.standard,
 #pardot-form select,
@@ -602,7 +608,6 @@ form.form p.submit input {
 	display: inline-block;
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
-	max-height: 100px;
 	transition: 0.25s
 }
 
