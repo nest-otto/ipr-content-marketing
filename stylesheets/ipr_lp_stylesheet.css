@@ -202,7 +202,7 @@ p {
 	color: var(--light-clover-green);
 }
 
-ul {
+ul, ol {
 	margin-top: 20px;
 }
 
@@ -210,6 +210,11 @@ ul li {
 	font-size: 1rem;
 	margin: 0 0 15px -40px;
 	list-style: none;
+}
+
+ol li {
+	font-size: 1rem;
+	margin: 0 0 15px -40px;
 }
 
 ul li::before {
