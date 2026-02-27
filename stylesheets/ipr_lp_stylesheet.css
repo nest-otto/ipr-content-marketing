@@ -681,7 +681,7 @@ textarea {
 /* the submit button */
 
 form.form p.submit input {
-    margin: 0 10px 0 0;
+    margin: 25px 0 0 0;
     padding: 15px 15px;
     width: 100%;
     font-weight: bold;
