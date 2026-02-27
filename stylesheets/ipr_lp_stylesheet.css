@@ -317,6 +317,7 @@ ul li::before {
 .cs-cover-cont{
 	position: relative;
 	margin-top: -75px;
+	padding-top: 25px;
 }
 
 .cover-s{
