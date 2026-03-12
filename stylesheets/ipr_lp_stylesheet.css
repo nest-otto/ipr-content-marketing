@@ -421,8 +421,10 @@ footer p, footer a{
 
 .copyright{
 	padding: 15px 0;
-	font-size: 0.875rem;
+	font-size: 0.75rem;
 	border-top: solid 1px var(--light-cool-gray);
+	gap: 15px;
+    display: flex;
 }
 
 .privacy {
@@ -975,6 +977,11 @@ form.form p.no-label {
 		margin: auto;
 		color: #fff;
 	}
+
+	.copyright{
+		display: block;
+	}
+	
 }
 
 
