@@ -415,17 +415,14 @@ footer p, footer a{
 	margin-bottom: 25px
 }
 
-.footer-social {
-	text-align: right;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+.social-links {
+	color: var(--light-cool-gray)
 }
 
 .copyright{
 	padding: 15px 0;
 	font-size: 0.875rem;
-	border-top: solid 1px var(--dark-green);
+	border-top: solid 1px var(--light-cool-gray);
 }
 
 .privacy {
