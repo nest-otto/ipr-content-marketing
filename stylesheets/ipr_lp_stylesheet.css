@@ -27,6 +27,11 @@ body {
 	background-image: none
 }
 
+.col-sm-5 {
+    -ms-flex: auto;
+    flex: auto;
+}
+
 .eyebrow {
 	font-size: 0.875rem;
 	text-transform: uppercase;
@@ -649,8 +654,8 @@ textarea {
 /* the field labels */
 #pardot-form label {
 	font-family: "avenir-lt-pro", sans-serif;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 0.875rem;
+	line-height: 1;
 	color: var(--ip-green);
 	font-weight: 500;
 	float: none;
