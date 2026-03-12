@@ -297,7 +297,7 @@ ul li::before {
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 100%;
-	max-width: 450px;
+	padding: 0
 }
 
 .thumbnail-button {
