@@ -400,7 +400,7 @@ ul li::before {
 
 footer{
 	line-height: 20px;
-	padding: 30px 50px;
+	padding: 30px 50px 0 50px;
 	margin: auto;
 	border-top  : solid 2px  #b8bdc4;
 }
@@ -420,6 +420,12 @@ footer p, footer a{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+}
+
+.copyright{
+	padding: 15px 0;
+	font-size: 0.875rem;
+	border-top: solid 1px var(--dark-green);
 }
 
 .privacy {
