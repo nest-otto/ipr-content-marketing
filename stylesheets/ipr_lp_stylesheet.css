@@ -426,6 +426,10 @@ footer p, footer a{
     display: flex;
 }
 
+.copyright a{
+	font-size: 0.75rem;
+}
+
 .privacy {
 	padding: 0;
 }
