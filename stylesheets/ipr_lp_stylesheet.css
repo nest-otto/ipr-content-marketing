@@ -158,11 +158,14 @@ p {
 	font-weight: 600;
 	margin-top: auto;
 	margin-bottom: auto;
-	padding: 0
+	padding: 0;
+	display: flex;
+	gap: 5px
 }
 
 .nav-link:hover{
 	color: var(--ip-dark-green);
+	gap: 10px;
 	transition: 0.2s ease-in
 }
 
