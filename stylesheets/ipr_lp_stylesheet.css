@@ -113,7 +113,7 @@ p {
 	color: white
 }
 
-.dark-green-bg a, .green-bg a{
+.light-link{
 	color: var(--light-aquamarine)
 }
 
@@ -126,7 +126,7 @@ p {
 	color: var(--clover-green)
 }
 
-.white-bg a{
+.link{
 	color: var(--clover-green)
 }
 
