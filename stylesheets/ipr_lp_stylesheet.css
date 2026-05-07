@@ -392,13 +392,13 @@ ul li::before {
 	margin-bottom: auto;
 	padding: 0;
 	display: flex;
-	gap: 5px
+	gap: 5px;
 }
 
 .text-button:hover{
 	color: var(--ip-dark-green);
 	gap: 10px;
-	transition: 0.2s ease-in
+	transition: 0.2s ease-in;
 }
 
 .text-button-light {
@@ -411,13 +411,13 @@ ul li::before {
 	margin-bottom: auto;
 	padding: 0;
 	display: flex;
-	gap: 5px
+	gap: 5px;
 }
 
 .text-button-light:hover{
 	color: white;
 	gap: 10px;
-	transition: 0.2s ease-in
+	transition: 0.2s ease-in;
 }
 
 .complete-button {
