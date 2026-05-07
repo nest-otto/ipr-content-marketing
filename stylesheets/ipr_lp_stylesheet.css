@@ -393,12 +393,14 @@ ul li::before {
 	padding: 0;
 	display: flex;
 	gap: 5px;
+	text-decoration: none;
 }
 
 .text-button:hover{
 	color: var(--ip-dark-green);
 	gap: 10px;
 	transition: 0.2s ease-in;
+	text-decoration: none;
 }
 
 .text-button-light {
@@ -412,12 +414,14 @@ ul li::before {
 	padding: 0;
 	display: flex;
 	gap: 5px;
+	text-decoration: none;
 }
 
 .text-button-light:hover{
 	color: white;
 	gap: 10px;
 	transition: 0.2s ease-in;
+	text-decoration: none;
 }
 
 .complete-button {
@@ -609,6 +613,7 @@ p {
 
 .arrow,
 .submit-arrow {
+	font-family: "Inter", sans-serif;
 	font-size: 14px;
 	color: #3db199;
 }
