@@ -383,14 +383,41 @@ ul li::before {
 }
 
 .text-button {
-	border: none;
-	color: var(--ip-green);
-	font-size: 16px;
+	font-size: 0.875rem;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	color: var(--ip-green);
 	font-weight: 600;
+	margin-top: auto;
+	margin-bottom: auto;
 	padding: 0;
-	background-color: transparent;
+	display: flex;
+	gap: 5px
+}
+
+.text-button:hover{
+	color: var(--ip-dark-green);
+	gap: 10px;
+	transition: 0.2s ease-in
+}
+
+.text-button-light {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: var(--light-aquamarine);
+	font-weight: 600;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0;
+	display: flex;
+	gap: 5px
+}
+
+.text-button-light:hover{
+	color: white;
+	gap: 10px;
+	transition: 0.2s ease-in
 }
 
 .complete-button {
