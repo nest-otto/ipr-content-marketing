@@ -134,6 +134,10 @@ p {
 	color: white
 }
 
+.white-bg .social-links{
+	color: var(--ip-green)
+}
+
 .link{
 	color: var(--clover-green)
 }
