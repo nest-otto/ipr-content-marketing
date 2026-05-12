@@ -14,19 +14,6 @@ body {
 	margin: auto;
 }
 
-.html-pattern-bg{
-	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
-	background-color: var(--ip-green);
-}
-
-.html-gray-bg{
-	background-color: var(--light-gray);
-}
-
-.no-bg{
-	background-image: none
-}
-
 .col-sm-5 {
     -ms-flex: auto;
     flex: auto;
@@ -99,6 +86,19 @@ p {
 	padding: 0
 }
 
+.no-bg{
+	background-image: none
+}
+
+.pattern-bg{
+	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
+	background-color: var(--ip-green);
+}
+
+.light-gray-bg{
+	background-color: var(--light-gray);
+}
+
 .dark-green-bg{
 	background-color: var(--ip-dark-green);
 	color: white
@@ -124,6 +124,10 @@ p {
 
 .white-bg h3{
 	color: var(--clover-green)
+}
+
+.dark-green-bg #pardot-form label {
+	color: var(--light-clover-green);
 }
 
 .link{
@@ -307,8 +311,8 @@ ul li::before {
 	padding: 0
 }
 
-.thumbnail-button {
-	background-color: var(--lightest-gray);
+.sticky-form-cont {
+	background-color: transparent;
 	color: var(--ip-dark-green);
 	padding: 25px;
 	width: 100%;
