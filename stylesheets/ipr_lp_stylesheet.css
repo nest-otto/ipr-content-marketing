@@ -589,8 +589,6 @@ footer p, footer a{
 
 /**form**/
 
-/* Load the custom font */
-
 #pardot-form {
 	font-family: "avenir-lt-pro", sans-serif;
 	text-rendering: optimizeLegibility;
@@ -628,7 +626,7 @@ p {
 /* Form background, width etc */
 #pardot-form {
 	margin: auto;
-	background-color: var(--lightest-gray);
+	background-color: transparent;
 }
 
 form.form {
