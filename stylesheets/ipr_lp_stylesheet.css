@@ -126,8 +126,8 @@ p {
 	color: var(--clover-green)
 }
 
-.dark-green-bg #pardot-form label {
-	color: var(--light-clover-green);
+.dark-green-bg #pardot-form label #pardot-form select {
+	color: var(--light-aquamarine);
 }
 
 .dark-green-bg #pardot-form input.text,
@@ -136,6 +136,10 @@ p {
 #pardot-form input.date{
 	color: white;
 	border-bottom: solid 1px var(--light-cool-gray);
+}
+
+.dark-green-bg .sticky-form-cont{
+	color: white
 }
 
 .link{
@@ -962,7 +966,7 @@ form.form p.no-label {
 		padding: 0 25px;
 	}
 
-	.thumbnail-button {
+	.sticky-form-cont {
 		width: 100%;
 		max-width: none;
 		position: relative;
