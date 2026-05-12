@@ -104,10 +104,6 @@ p {
 	color: white
 }
 
-.dark-green-bg h3{
-	color: var(--light-clover-green)
-}
-
 .green-bg{
 	background-color: var(--ip-green);
 	color: white
@@ -120,10 +116,6 @@ p {
 .white-bg{
 	background-color: white;
 	color: var(--ip-dark-green)
-}
-
-.white-bg h3{
-	color: var(--clover-green)
 }
 
 .dark-green-bg #pardot-form label #pardot-form select {
