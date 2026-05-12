@@ -330,7 +330,7 @@ ul li::before {
 	margin-right: auto;
 	display: block;
 	position: sticky;
-	top: 50px;
+	top: 25px;
 }
 
 .doc-container {
