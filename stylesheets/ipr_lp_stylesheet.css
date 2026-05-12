@@ -312,7 +312,6 @@ ul li::before {
 }
 
 .sticky-form-cont {
-	background-color: transparent;
 	color: var(--ip-dark-green);
 	padding: 25px;
 	width: 100%;
@@ -630,7 +629,6 @@ p {
 /* Form background, width etc */
 #pardot-form {
 	margin: auto;
-	background-color: transparent;
 }
 
 form.form {
