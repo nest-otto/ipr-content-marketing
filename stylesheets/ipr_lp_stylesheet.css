@@ -709,12 +709,21 @@ select:focus {
 }
 
 select::picker-icon {
+  font-family: Inter, sans-serif;
   color: inherit;
   transition: 0.4s rotate;
 }
 
 select:open::picker-icon {
   rotate: 180deg;
+}
+
+option::checkmark {
+  font-family: Inter, sans-serif;
+}
+
+option {
+  padding: 5px;
 }
 
 #pardot-form span.value {
