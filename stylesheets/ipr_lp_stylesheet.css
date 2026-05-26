@@ -697,6 +697,11 @@ textarea {
 	outline: none;
 }
 
+select,
+::picker(select) {
+  appearance: base-select;
+}
+
 #pardot-form span.value {
 	margin-left: 0;
 }
