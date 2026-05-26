@@ -700,6 +700,12 @@ textarea {
 select,
 ::picker(select) {
   appearance: base-select;
+	border-radius: 0;
+}
+
+select:hover,
+select:focus {
+  background: #dddddd;
 }
 
 #pardot-form span.value {
