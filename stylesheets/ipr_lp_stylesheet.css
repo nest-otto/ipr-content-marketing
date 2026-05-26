@@ -705,7 +705,16 @@ select,
 
 select:hover,
 select:focus {
-  background: #dddddd;
+  background: var(--lightest-gray);
+}
+
+select::picker-icon {
+  color: inherit;
+  transition: 0.4s rotate;
+}
+
+select:open::picker-icon {
+  rotate: 180deg;
 }
 
 #pardot-form span.value {
