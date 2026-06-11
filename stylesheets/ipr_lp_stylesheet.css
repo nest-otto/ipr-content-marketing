@@ -6,19 +6,6 @@
 	padding: 50px;
 }
 
-.html-pattern-bg{
-	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
-	background-color: var(--ip-green);
-}
-
-.html-gray-bg{
-	background-color: var(--light-gray);
-}
-
-.no-bg{
-	background-image: none
-}
-
 body {
 	font-family: "avenir-lt-pro", sans-serif;
 	background-color: #ffffff;
@@ -27,8 +14,89 @@ body {
 	margin: auto;
 }
 
+.col-sm-5 {
+    -ms-flex: auto;
+    flex: auto;
+}
+
+.eyebrow {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+.heading-xl {
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+}
+
+.heading-l{
+	font-size: 1.25rem;
+	line-height: 1.25;
+	font-weight: 400;
+}
+
+.heading-m{
+	font-size: 1.15rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+h3{
+	font-size: 1.15rem;
+	line-height: 1.5
+}
+
+.sub-heading{
+	font-size: 1.125rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.link-light{
+	color: var(--light-aquamarine);
+}
+
+.link-light:hover{
+	color: white
+}
+
+.lead {
+	color: var(--light-aquamarine);
+}
+
+p {
+	font-family: "avenir-lt-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: 0;
+	margin-left: 0;
+}
+
+.footnote{
+	font-size: 0.85rem
+}
+
 .no-padding{
 	padding: 0
+}
+
+.no-bg{
+	background-image: none
+}
+
+.pattern-bg{
+	background-image: url(https://go.recycling.internationalpaper.com/l/997001/2025-05-29/2wcjr/997001/1748532085rLo0bwLa/SIM_Pattern_XL_50_.png);
+	background-color: var(--ip-green);
+}
+
+.light-gray-bg{
+	background-color: var(--light-gray);
 }
 
 .dark-green-bg{
@@ -41,7 +109,7 @@ body {
 	color: white
 }
 
-.dark-green-bg a, .green-bg a{
+.light-link{
 	color: var(--light-aquamarine)
 }
 
@@ -50,7 +118,31 @@ body {
 	color: var(--ip-dark-green)
 }
 
-.white-bg a{
+.dark-green-bg #pardot-form label, .dark-green-bg#pardot-form select {
+	color: var(--light-aquamarine);
+}
+
+.dark-green-bg #pardot-form input.text,
+.dark-green-bg #pardot-form textarea.standard,
+.dark-green-bg #pardot-form select,
+.dark-green-bg #pardot-form input.date{
+	color: white;
+	border-bottom: solid 1px var(--light-cool-gray);
+}
+
+.dark-green-bg .sticky-form-cont{
+	color: white
+}
+
+.white-bg .social-links a{
+	color: var(--ip-green)
+}
+
+.ip-green{
+	color: var(--ip-green);
+}
+
+.link{
 	color: var(--clover-green)
 }
 
@@ -70,7 +162,8 @@ body {
 
 .nav-links-cont{
 	display: flex;
-	gap: 15px
+	gap: 25px;
+	justify-content: space-between;
 }
 
 .nav-link{
@@ -79,24 +172,26 @@ body {
 	letter-spacing: 1px;
 	color: var(--ip-green);
 	font-weight: 600;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0;
+	display: flex;
+	gap: 5px
 }
 
 .nav-link:hover{
 	color: var(--ip-dark-green);
+	gap: 10px;
 	transition: 0.2s ease-in
 }
 
 .hero {
-	background-color: var(--ip-dark-green);
 	padding: 50px 30px;
 	display: flex;
 	justify-content: space-between;
-	column-gap: 25px;
 }
 
 .main-cont {
-	background-color: var(--ip-dark-green);
 	display: flex;
 	justify-content: space-between;
 }
@@ -124,64 +219,18 @@ body {
 }
 
 .hero-copy {
-	color: #ffffff;
+	padding-right: 50px
 }
 
-.eyebrow {
-	font-size: 0.875rem;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-weight: 600;
-	padding-bottom: 10px;
-}
-
-.heading-xl {
-	font-size: 2rem;
-	font-weight: 400;
-	margin: 0 0 15px 0;
-}
-
-.heading-l{
-	font-size: 1.25rem;
-	line-height: 1.25;
-	font-weight: 400;
-}
-
-.heading-m{
-	font-size: 1.25rem;
-	line-height: 1.5;
-	font-weight: 400;
-}
-
-.link-light{
-	color: var(--light-aquamarine);
-}
-
-.link-light:hover{
-	color: white
-}
-
-.lead {
-	font-size: 1.125rem;
-	line-height: 24px;
-	color: var(--light-aquamarine);
+.ip-green{
+	color: var(--ip-green);
 }
 
 .light-green{
 	color: var(--light-clover-green);
 }
 
-p {
-	font-family: "avenir-lt-pro", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 1rem;
-	line-height: 1.5;
-	padding: 0;
-	margin-left: 0;
-}
-
-ul {
+ul, ol {
 	margin-top: 20px;
 }
 
@@ -189,6 +238,11 @@ ul li {
 	font-size: 1rem;
 	margin: 0 0 15px -40px;
 	list-style: none;
+}
+
+ol li {
+	font-size: 1rem;
+	margin: 0 0 15px -40px;
 }
 
 ul li::before {
@@ -256,24 +310,27 @@ ul li::before {
 	padding-top: 25px;
 }
 
+.download-container {
+		padding: 50px 50px 50px 0;
+		max-width: 450px;
+	}
+
 .form-container {
-	padding: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	width: 100%;
+	padding: 0
 }
 
-.thumbnail-button {
-	background-color: var(--lightest-gray);
-	color: var(--ip-dark-green);
+.sticky-form-cont {
 	padding: 25px;
 	width: 100%;
-	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	position: sticky;
-	top: 50px;
+	top: 25px;
 }
 
 .doc-container {
@@ -285,6 +342,7 @@ ul li::before {
 .cs-cover-cont{
 	position: relative;
 	margin-top: -75px;
+	padding-top: 25px;
 }
 
 .cover-s{
@@ -339,14 +397,45 @@ ul li::before {
 }
 
 .text-button {
-	border: none;
-	color: var(--ip-green);
-	font-size: 16px;
+	font-size: 0.875rem;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
+	color: var(--ip-green);
 	font-weight: 600;
+	margin-top: auto;
+	margin-bottom: auto;
 	padding: 0;
-	background-color: transparent;
+	display: flex;
+	gap: 5px;
+	text-decoration: none;
+}
+
+.text-button:hover{
+	color: var(--ip-dark-green);
+	gap: 10px;
+	transition: 0.2s ease-in;
+	text-decoration: none;
+}
+
+.text-button-light {
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: var(--light-aquamarine);
+	font-weight: 600;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0;
+	display: flex;
+	gap: 5px;
+	text-decoration: none;
+}
+
+.text-button-light:hover{
+	color: white;
+	gap: 10px;
+	transition: 0.2s ease-in;
+	text-decoration: none;
 }
 
 .complete-button {
@@ -367,14 +456,13 @@ ul li::before {
 
 footer{
 	line-height: 20px;
-	padding: 30px 50px;
+	padding: 30px 50px 0 50px;
 	margin: auto;
-	border-top: solid 2px var(--ip-dark-green)
+	border-top  : solid 2px  #b8bdc4;
 }
 
 footer p, footer a{
 	font-size: 0.875rem;
-	margin-bottom: 15px
 }
 
 .footer-logo{
@@ -382,11 +470,18 @@ footer p, footer a{
 	margin-bottom: 25px
 }
 
-.footer-social {
-	text-align: right;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+.social-links {
+	color: var(--light-cool-gray)
+}
+
+.copyright{
+	padding: 15px 0;
+	font-size: 0.75rem;
+	border-top: solid 1px var(--light-cool-gray);
+}
+
+.copyright a{
+	font-size: 0.75rem;
 }
 
 .privacy {
@@ -508,8 +603,6 @@ footer p, footer a{
 
 /**form**/
 
-/* Load the custom font */
-
 #pardot-form {
 	font-family: "avenir-lt-pro", sans-serif;
 	text-rendering: optimizeLegibility;
@@ -532,6 +625,7 @@ p {
 
 .arrow,
 .submit-arrow {
+	font-family: "Inter", sans-serif;
 	font-size: 14px;
 	color: #3db199;
 }
@@ -546,7 +640,6 @@ p {
 /* Form background, width etc */
 #pardot-form {
 	margin: auto;
-	background-color: var(--lightest-gray);
 }
 
 form.form {
@@ -561,30 +654,37 @@ form.form p.submit input {
 
 /* The input fields */
 
+textarea {
+    overflow: auto;
+    height: 100px;
+	resize: vertical;
+}
+
 #pardot-form input.text,
 #pardot-form textarea.standard,
 #pardot-form select,
 #pardot-form input.date {
-	background-color: white;
-	font-size: 14px;
+	background-color: transparent;
+	font-size: 1rem;
 	color: var(--ip-black);
-	padding: 10px;
+	padding: 0 0 5px 0;
 	width: 100%;
 	font-family: "avenir-lt-pro", sans-serif;
 	box-sizing: border-box;
 	display: inline-block;
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
-	max-height: 150px;
+	transition: 0.25s
 }
 
 #pardot-form select {
 	border: 0;
 	border-bottom: solid 1px var(--ip-green);
+	margin-bottom: 5px;
 }
 
 #pardot-form input.text {
-	padding: 10px;
+	margin-bottom: 5px;
 }
 
 /* the input fields on focus */
@@ -597,6 +697,35 @@ form.form p.submit input {
 	outline: none;
 }
 
+select,
+::picker(select) {
+  appearance: base-select;
+	border-radius: 0;
+}
+
+select:hover,
+select:focus {
+  background: var(--lightest-gray);
+}
+
+select::picker-icon {
+  font-family: Inter, sans-serif;
+  color: inherit;
+  transition: 0.4s rotate;
+}
+
+select:open::picker-icon {
+  rotate: 180deg;
+}
+
+option::checkmark {
+  font-family: Inter, sans-serif;
+}
+
+option {
+  padding: 5px;
+}
+
 #pardot-form span.value {
 	margin-left: 0;
 }
@@ -604,11 +733,10 @@ form.form p.submit input {
 /* the field labels */
 #pardot-form label {
 	font-family: "avenir-lt-pro", sans-serif;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 0.875rem;
+	line-height: 1;
 	color: var(--ip-green);
 	font-weight: 500;
-	padding-bottom: 5px;
 	float: none;
 	text-align: left;
 	width: auto;
@@ -633,9 +761,9 @@ form.form p.submit input {
 #privacy-policy-msg {
 	color: #606a75;
 	font-size: 11px;
-	line-height: 20px;
+	line-height: 150%;
 	font-family: "avenir-lt-pro", sans-serif;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	display: inline-block;
 	text-align: left;
 }
@@ -643,7 +771,7 @@ form.form p.submit input {
 /* the submit button */
 
 form.form p.submit input {
-    margin: 0 10px 0 0;
+    margin: 25px 0 0 0;
     padding: 15px 15px;
     width: 100%;
     font-weight: bold;
@@ -783,16 +911,23 @@ form.form p.no-label {
 }
 
 .red-color,form.form div.error,form.form p.error,form.form p.error label,form.form span.error {
-    color: #8b0000
+    color: #8b0000;
 }
 
 form.form p.no-label {
     margin-left: 0 !important;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    font-size: 0.875rem;
+}
+
+.hidden{
+	display: none;
 }
 
 .g-recaptcha {
 	padding-bottom: 0;
-	padding-top: 15px;
+	padding-top: 0;
 }
 
 
@@ -828,6 +963,16 @@ form.form p.no-label {
 	
 	.header {
 		padding: 15px 25px;
+		flex-direction: column;
+		gap: 25px
+	}
+	
+	.nav-link-cont{
+		justify-content: space-around;
+	}
+	
+	.nav-link{
+		padding: 0
 	}
 
 	.hero {
@@ -846,10 +991,10 @@ form.form p.no-label {
 	}
 	
 	.download-container {
-		padding: 0 0 50px 0;
+		padding: 0 25px;
 	}
 
-	.thumbnail-button {
+	.sticky-form-cont {
 		width: 100%;
 		max-width: none;
 		position: relative;
@@ -916,6 +1061,11 @@ form.form p.no-label {
 		margin: auto;
 		color: #fff;
 	}
+
+	.copyright{
+		display: block;
+	}
+	
 }
 
 
