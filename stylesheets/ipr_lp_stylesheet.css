@@ -357,6 +357,11 @@ ul li::before {
 	margin: auto
 }
 
+.form-img-text{
+	display: flex;
+	gap: 15px;
+}
+
 .align-left{
 	margin-left: 0
 }
