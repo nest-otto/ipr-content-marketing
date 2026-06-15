@@ -128,6 +128,7 @@ p {
 .dark-green-bg #pardot-form input.date{
 	color: white;
 	border-bottom: solid 1px var(--light-cool-gray);
+	position: relative;
 }
 
 .dark-green-bg .sticky-form-cont{
@@ -717,6 +718,9 @@ select::picker-icon {
   font-family: Inter, sans-serif;
   color: inherit;
   transition: 0.4s rotate;
+	position: absolute;
+    right: 5px;
+    bottom: 5px;
 }
 
 select:open::picker-icon {
