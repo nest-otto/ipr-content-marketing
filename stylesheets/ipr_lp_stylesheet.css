@@ -144,6 +144,10 @@ p {
 	position: relative;
 }
 
+.dark-green-bg .submit input:hover{
+	background-color: #00ab5f;
+}
+
 .dark-green-bg .sticky-form-cont{
 	color: white
 }
