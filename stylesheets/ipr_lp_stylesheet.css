@@ -118,6 +118,19 @@ p {
 	color: var(--ip-dark-green)
 }
 
+.white-bg #pardot-form input.text,
+.white-bg #pardot-form textarea.standard,
+.white-bg #pardot-form select,
+.white-bg #pardot-form input.date{
+	color: var(--ip-dark-green);
+	border-bottom: solid 1px var(--light-cool-gray);
+	position: relative;
+}
+
+.white-bg #pardot-form label, .dark-green-bg#pardot-form select {
+	color: var(--ip-green);
+}
+
 .dark-green-bg #pardot-form label, .dark-green-bg#pardot-form select {
 	color: var(--light-aquamarine);
 }
