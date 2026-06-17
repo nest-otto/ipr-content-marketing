@@ -14,11 +14,6 @@ body {
 	margin: auto;
 }
 
-.col-sm-5 {
-    -ms-flex: auto;
-    flex: auto;
-}
-
 .eyebrow {
 	font-size: 0.875rem;
 	text-transform: uppercase;
@@ -160,6 +155,10 @@ p {
 	color: var(--ip-green);
 }
 
+.light-green{
+	color: var(--light-clover-green);
+}
+
 .link{
 	color: var(--clover-green)
 }
@@ -238,14 +237,6 @@ p {
 
 .hero-copy {
 	padding-right: 50px
-}
-
-.ip-green{
-	color: var(--ip-green);
-}
-
-.light-green{
-	color: var(--light-clover-green);
 }
 
 ul, ol {
