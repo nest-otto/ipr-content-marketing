@@ -532,15 +532,6 @@ footer p, footer a{
 	justify-content: center;
 }
 
-.solid-button-arrow {
-	color: var(--aquamarine);
-}
-
-.text-button:hover {
-	text-decoration: none;
-	color: var(--ip-dark-green);
-}
-
 .social-container a {
 	color: inherit;
 }
