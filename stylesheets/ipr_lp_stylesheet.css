@@ -127,11 +127,11 @@ p {
 	position: relative;
 }
 
-.white-bg #pardot-form label, .dark-green-bg#pardot-form select {
+.white-bg #pardot-form label, .white-bg #pardot-form select {
 	color: var(--ip-green);
 }
 
-.dark-green-bg #pardot-form label, .dark-green-bg#pardot-form select {
+.dark-green-bg #pardot-form label, .dark-green-bg #pardot-form select {
 	color: var(--light-aquamarine);
 }
 
