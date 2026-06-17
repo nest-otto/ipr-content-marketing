@@ -204,8 +204,6 @@ p {
 
 .hero {
 	padding: 50px 30px;
-	display: flex;
-	justify-content: space-between;
 }
 
 .main-cont {
@@ -986,7 +984,6 @@ form.form p.no-label {
 
 	.hero {
 		padding: 50px 25px;
-		display: block;
 	}
 
 	.hero-copy {
