@@ -236,7 +236,8 @@ p {
 }
 
 .hero-copy {
-	padding-right: 50px
+	padding-right: 50px;
+	padding-left: 30px;
 }
 
 ul, ol {
