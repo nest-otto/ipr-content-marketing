@@ -115,7 +115,7 @@ p {
 
 .white-bg{
 	background-color: white;
-	color: var(--ip-dark-green)
+	color: var(--ip-black)
 }
 
 .white-bg #pardot-form input.text,
