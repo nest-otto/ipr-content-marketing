@@ -368,6 +368,7 @@ ul li::before {
 .form-img-text{
 	display: flex;
 	gap: 15px;
+	padding: 25px
 }
 
 .align-left{
@@ -1038,7 +1039,8 @@ form.form p.no-label {
 	}
 
 	.form-img-text{
-		display: block
+		flex-direction: column;
+		gap: 25px
 	}
 
 	.newsletter {
