@@ -741,7 +741,7 @@ option {
 #pardot-form label {
 	font-family: "avenir-lt-pro", sans-serif;
 	font-size: 0.875rem;
-	line-height: 1;
+	line-height: 1.25;
 	color: var(--ip-green);
 	font-weight: 500;
 	float: none;
@@ -1035,6 +1035,10 @@ form.form p.no-label {
 	
 	#pardot-form {
 		width: 100%
+	}
+
+	.form-img-text{
+		display: block
 	}
 
 	.newsletter {
