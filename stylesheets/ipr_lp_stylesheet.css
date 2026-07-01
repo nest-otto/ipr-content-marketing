@@ -368,7 +368,9 @@ ul li::before {
 .form-img-text{
 	display: flex;
 	gap: 15px;
-	padding: 25px
+	padding-bottom: 15px;
+    position: sticky;
+    top: 25px;
 }
 
 .align-left{
